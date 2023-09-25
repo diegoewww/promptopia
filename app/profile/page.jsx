@@ -28,7 +28,7 @@ const MyProfile = () => {
   }
 
   const handleDelete = async (post) => {
-    const hasConfirmed = confirm("Are you sure you want to delete this prompt??")
+    const hasConfirmed = confirm("¿Estás seguro de que deseas eliminar esta sugerencia?")
 
     if (hasConfirmed) {
       try {
@@ -51,8 +51,8 @@ const MyProfile = () => {
 
   return (
     <Profile
-      name="My"
-      desc="Welcome to your personalized profile page"
+      name="Mi"
+      desc="Bienvenido a tu página de perfil personalizada"
       data={posts}
       handleEdit={handleEdit}
       handleDelete={handleDelete}

@@ -67,14 +67,14 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             className="font-inter text-sm green_gradient cursor-pointer"
             onClick={handleEdit}>
 
-            Edit
+            Editar
           </p>
 
           <p
             className="font-inter text-sm orange_gradient cursor-pointer"
             onClick={handleDelete}>
 
-            Delete
+            Borrar
           </p>
         </div>
       )}
